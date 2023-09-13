@@ -10,7 +10,7 @@ import uz.pdp.notificationservice.controller.dto.MailDto;
 
 @Service
 @RequiredArgsConstructor
-public class MailSendingService {
+public class    MailSendingService {
     private final JavaMailSender mailSender;
     @Value("${spring.mail.username}")
     private String sender;
